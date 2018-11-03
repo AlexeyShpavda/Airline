@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineHierarchy", "AirlineHierarchy\AirlineHierarchy.csproj", "{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{065EA7D6-2E57-4070-8E67-576CA22E62F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065EA7D6-2E57-4070-8E67-576CA22E62F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065EA7D6-2E57-4070-8E67-576CA22E62F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065EA7D6-2E57-4070-8E67-576CA22E62F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065EA7D6-2E57-4070-8E67-576CA22E62F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

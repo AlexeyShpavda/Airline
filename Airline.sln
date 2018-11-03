@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{545F707D-848D-461A-9DAA-D0701E0B8610}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineHierarchy", "AirlineHierarchy\AirlineHierarchy.csproj", "{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{545F707D-848D-461A-9DAA-D0701E0B8610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545F707D-848D-461A-9DAA-D0701E0B8610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545F707D-848D-461A-9DAA-D0701E0B8610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3EFC82-E65A-4BD0-8804-EE3EE1CCAC5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

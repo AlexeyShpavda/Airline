@@ -56,6 +56,11 @@
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\WideBodyAirliner.cs" />
     <Compile Include="TransportAircrafts\TransportAircraft.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{065ea7d6-2e57-4070-8e67-576ca22e62f7}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

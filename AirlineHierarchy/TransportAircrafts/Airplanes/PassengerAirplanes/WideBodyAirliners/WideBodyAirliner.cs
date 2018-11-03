@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Interfaces.TransportAircraftInterfaces.Airplanes.PassengerAirplanes.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.WideB
 {
     public abstract class WideBodyAirliner : PassengerAirplane
     {
+        public sealed override FlightRangeClassification FlightRangeClassification =>
+            FlightRangeClassification.LongHaul;
     }
 }

@@ -42,6 +42,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\Airplane.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\CargoAirplanes\CargoAirplane.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\CargoAirplanes\Models\AirbusBelugaXL.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\LocalAirliners\LocalAirliner.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\LocalAirliners\Models\CirrusSR22.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\NarrowBodyAirliners\Models\Boeing737.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\NarrowBodyAirliners\NarrowBodyAirliner.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\PassengerAirplane.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RagionalAirliners\Models\ComacARJ21.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RagionalAirliners\RegionalAirliner.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\Models\AirbusA380.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\WideBodyAirliner.cs" />
+    <Compile Include="TransportAircrafts\TransportAircraft.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

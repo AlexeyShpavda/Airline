@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.NarrowBodyAirliners
 {
-    class NarrowBodyAirliner
+    public abstract class NarrowBodyAirliner : PassengerAirplane
     {
     }
 }

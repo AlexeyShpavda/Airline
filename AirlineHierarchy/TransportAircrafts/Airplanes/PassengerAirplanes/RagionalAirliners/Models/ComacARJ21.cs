@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RagionalAirliners.Models
 {
-    class ComacARJ21
+    public class ComacARJ21 : RegionalAirliner
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes
 {
-    class Airplane
+    public abstract class Airplane : TransportAircraft
     {
     }
 }

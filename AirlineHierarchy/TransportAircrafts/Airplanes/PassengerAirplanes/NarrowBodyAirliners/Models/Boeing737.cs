@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.NarrowBodyAirliners.Models
 {
-    class Boeing737
+    public class Boeing737 : NarrowBodyAirliner
     {
     }
 }

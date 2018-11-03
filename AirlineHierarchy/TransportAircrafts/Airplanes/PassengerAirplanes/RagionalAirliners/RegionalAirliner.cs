@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RagionalAirliners
 {
-    class RegionalAirliner
+    public abstract class RegionalAirliner : PassengerAirplane
     {
     }
 }

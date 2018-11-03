@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.LocalAirliners.Models
 {
-    class CirrusSR22
+    public class CirrusSR22 : LocalAirliner
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.WideBodyAirliners.Models
 {
-    class AirbusA380
+    public class AirbusA380 : WideBodyAirliner
     {
     }
 }

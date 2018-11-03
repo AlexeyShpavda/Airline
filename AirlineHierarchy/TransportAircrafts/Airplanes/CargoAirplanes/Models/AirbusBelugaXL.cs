@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.CargoAirplanes.Models
 {
-    class AirbusBelugaXL
+    public class AirbusBelugaXL : CargoAirplane
     {
     }
 }

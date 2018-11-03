@@ -42,6 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransportAircraftInterfaces\Airplanes\PassengerAirplanes\Enums\FlightRangeClassification.cs" />
+    <Compile Include="TransportAircraftInterfaces\Enums\AircraftType.cs" />
+    <Compile Include="TransportAircraftInterfaces\Enums\Category.cs" />
+    <Compile Include="TransportAircraftInterfaces\Enums\ServiceType.cs" />
+    <Compile Include="TransportAircraftInterfaces\Enums\TransportedType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TransportAircraftInterfaces\Airplanes\CargoAirplanes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

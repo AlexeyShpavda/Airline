@@ -1,4 +1,5 @@
-﻿using Interfaces.TransportAircraftInterfaces.Enums;
+﻿using Interfaces.TransportAircraftInterfaces.Airplanes.CargoAirplanes;
+using Interfaces.TransportAircraftInterfaces.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.CargoAirplanes
 {
-    public abstract class CargoAirplane : Airplane
+    public abstract class CargoAirplane : Airplane, ICargoAirplane
     {
         // Volume (m^3)
         public abstract int CargoCompartmentVolume { get; }

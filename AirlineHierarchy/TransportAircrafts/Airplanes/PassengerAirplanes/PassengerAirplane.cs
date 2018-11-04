@@ -1,4 +1,5 @@
-﻿using Interfaces.TransportAircraftInterfaces.Airplanes.PassengerAirplanes.Enums;
+﻿using Interfaces.TransportAircraftInterfaces.Airplanes.PassengerAirplanes;
+using Interfaces.TransportAircraftInterfaces.Airplanes.PassengerAirplanes.Enums;
 using Interfaces.TransportAircraftInterfaces.Enums;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes
 {
-    public abstract class PassengerAirplane : Airplane
+    public abstract class PassengerAirplane : Airplane, IPassengerAirplane
     {
         public abstract FlightRangeClassification FlightRangeClassification { get; }
 

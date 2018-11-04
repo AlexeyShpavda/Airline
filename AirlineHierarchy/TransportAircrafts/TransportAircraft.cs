@@ -1,4 +1,5 @@
-﻿using Interfaces.TransportAircraftInterfaces.Enums;
+﻿using Interfaces.TransportAircraftInterfaces;
+using Interfaces.TransportAircraftInterfaces.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AirlineHierarchy.TransportAircrafts
 {
-    public abstract class TransportAircraft
+    public abstract class TransportAircraft : ITransportAircraft
     {
         public abstract string Model { get; }
 

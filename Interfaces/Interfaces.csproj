@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AirlineInterfaces\AirlineComponents\WorkWithAircrafts\IAircraftManagement.cs" />
+    <Compile Include="AirlineInterfaces\AirlineComponents\WorkWithAircrafts\IAircraftSelection.cs" />
     <Compile Include="AirlineInterfaces\IAirline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransportAircraftInterfaces\Airplanes\CargoAirplanes\ICargoAirplane.cs" />

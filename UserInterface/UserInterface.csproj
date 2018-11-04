@@ -49,5 +49,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AirlineCore\AirlineCore.csproj">
+      <Project>{5068635f-32b5-4eb5-859c-d639bcc67d8a}</Project>
+      <Name>AirlineCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AirlineHierarchy\AirlineHierarchy.csproj">
+      <Project>{8b3efc82-e65a-4bd0-8804-ee3ee1ccac5c}</Project>
+      <Name>AirlineHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{065ea7d6-2e57-4070-8e67-576ca22e62f7}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

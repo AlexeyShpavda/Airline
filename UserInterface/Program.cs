@@ -43,6 +43,12 @@ namespace UserInterface
 
             // Flight Range Sorting
             var sortedTransportAircrafts = airline.SortAircraftDescending(x => x.FlightRange);
+
+            // Aircrafts which Correspond to a Given Range of Fuel Consumption Parameters
+            double lowerBound = 0;
+            double upperBound = 0.5;
+            var suitableTransportAircrafts =
+                airline.SearchForSuitableAircraftByRange(x => x.FuelConsumption, lowerBound, upperBound);
         }
     }
 }

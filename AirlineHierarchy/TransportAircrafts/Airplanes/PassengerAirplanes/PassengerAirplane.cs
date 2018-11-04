@@ -17,9 +17,6 @@ namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes
 
         public sealed override TransportedType TransportedType => TransportedType.Passenger;
 
-        public override string ToString()
-        {
-            return $"{TransportedType} {base.ToString()}";
-        }
+        public override string ToString() => $"{TransportedType} {base.ToString()}";
     }
 }

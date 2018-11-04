@@ -49,6 +49,32 @@ namespace UserInterface
             double upperBound = 0.5;
             var suitableTransportAircrafts =
                 airline.SearchForSuitableAircraftByRange(x => x.FuelConsumption, lowerBound, upperBound);
+
+            Console.WriteLine("========== General Information About Aircrafts ==========");
+            Console.WriteLine($"Total Number of Seats - {seatsNumber}");
+            Console.WriteLine($"Total Cargo Compartment Volume - {cargoCompartmentVolume} m^3");
+            Console.WriteLine($"Total Load Capacity - {loadCapacity} kg");
+
+            Console.WriteLine("\n================= All Airline Aircrafts =================");
+            foreach (var aircraft in airline.ShowAllAircraft())
+            {
+                Console.WriteLine(aircraft.ToString());
+            }
+
+            Console.WriteLine("\n====== All Airline Aircrafts Sorted by Flight Range ======");
+            foreach (var aircraft in sortedTransportAircrafts)
+            {
+                Console.WriteLine($"{aircraft.ToString()}, Flight Range - {aircraft.FlightRange}");
+            }
+
+            Console.WriteLine("\n=============== Suitable Airline Aircrafts ===============");
+            Console.WriteLine($"Lower Bound - {lowerBound}, Upper Bound - {upperBound}");
+            foreach (var aircraft in suitableTransportAircrafts)
+            {
+                Console.WriteLine($"{aircraft.ToString()}, Fuel Consumption - {aircraft.FuelConsumption}");
+            }
+
+            Console.ReadKey();
         }
     }
 }

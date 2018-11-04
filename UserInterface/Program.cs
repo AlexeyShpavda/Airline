@@ -40,6 +40,9 @@ namespace UserInterface
 
             // Total Load Capacity (Weight (Kg))
             var loadCapacity = airline.GetInformationAboutTotal(passengerAirplanes, x => x.LoadCapacity);
+
+            // Flight Range Sorting
+            var sortedTransportAircrafts = airline.SortAircraftDescending(x => x.FlightRange);
         }
     }
 }

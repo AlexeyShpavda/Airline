@@ -37,6 +37,9 @@ namespace UserInterface
 
             // Capacity for Cargo Aircrafts is Volume of Cargo Compartment
             var cargoCompartmentVolume = airline.GetInformationAboutTotal(cargoAirplanes, x => x.CargoCompartmentVolume);
+
+            // Total Load Capacity (Weight (Kg))
+            var loadCapacity = airline.GetInformationAboutTotal(passengerAirplanes, x => x.LoadCapacity);
         }
     }
 }

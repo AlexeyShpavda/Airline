@@ -4,7 +4,7 @@ using System;
 
 namespace AirlineHierarchy.TransportAircrafts
 {
-    public abstract partial class TransportAircraft : ITransportAircraft
+    public abstract class TransportAircraft : ITransportAircraft
     {
         public abstract string Model { get; }
 
@@ -29,11 +29,6 @@ namespace AirlineHierarchy.TransportAircrafts
 
         public Guid SerialNumber => Guid.NewGuid();
 
-        public override string ToString() => $"Serial Number: {SerialNumber}";
-    }
-
-    public abstract partial class TransportAircraft
-    {
-        protected string OverrideToStringInModels() => $"{Manufacturer}, {Model}";
+        public override string ToString() => $"{Manufacturer} {Model}, Serial Number: {SerialNumber}";
     }
 }

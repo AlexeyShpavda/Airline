@@ -13,7 +13,5 @@
         public override int LoadCapacity => 10150;
 
         public override int SeatsNumber => 95;
-
-        public override string ToString() => $"{OverrideToStringInModels()}, {base.ToString()}";
     }
 }

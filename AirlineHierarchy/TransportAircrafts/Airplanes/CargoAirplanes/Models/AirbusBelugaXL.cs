@@ -13,7 +13,5 @@
         public override int LoadCapacity => 53000;
 
         public override int CargoCompartmentVolume => 1400;
-
-        public override string ToString() => $"{OverrideToStringInModels()}, {base.ToString()}";
     }
 }

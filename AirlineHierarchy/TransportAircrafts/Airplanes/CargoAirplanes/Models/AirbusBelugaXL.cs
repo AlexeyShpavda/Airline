@@ -14,6 +14,6 @@
 
         public override int CargoCompartmentVolume => 1400;
 
-        public override string ToString() => $"{Manufacturer}, {Model}, {base.ToString()}";
+        public override string ToString() => $"{OverrideToStringInModels()}, {base.ToString()}";
     }
 }

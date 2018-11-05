@@ -11,9 +11,9 @@ using System;
 
 namespace UserInterface
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             var airline = new Airline("AS_AIR", new AircraftManagement(), new AircraftSelection());
 

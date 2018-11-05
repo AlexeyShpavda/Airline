@@ -24,9 +24,9 @@ namespace AirlineCore.AirlineComponents.WorkWithAircraft
             Func<ITransportAircraft, double> searchCriteria, double lowerBound, double upperBound)
         {
             var suitableTransportAircraft = from x in transportAircraft
-                                             where searchCriteria(x) >= lowerBound &&
-                                                   searchCriteria(x) <= upperBound
-                                             select x;
+                                            where searchCriteria(x) >= lowerBound &&
+                                                  searchCriteria(x) <= upperBound
+                                            select x;
 
             return new List<ITransportAircraft>(suitableTransportAircraft);
         }

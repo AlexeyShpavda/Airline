@@ -16,13 +16,12 @@ namespace AirlineCore
 
         private IEnumerable<ITransportAircraft> TransportAircraft { get; set; }
 
-        public Airline(string name, IAircraftManagement aircraftManagement,
-            IAircraftSelection aircraftSelection, IEnumerable<ITransportAircraft> transportAircraft)
+        public Airline(string name, IAircraftManagement aircraftManagement, IAircraftSelection aircraftSelection)
         {
             Name = name;
             AircraftManagement = aircraftManagement;
             AircraftSelection = aircraftSelection;
-            TransportAircraft = transportAircraft;
+            TransportAircraft = new List<ITransportAircraft>();
         }
 
         public void BuyAircraft<T>(int quantity) where T : ITransportAircraft, new()

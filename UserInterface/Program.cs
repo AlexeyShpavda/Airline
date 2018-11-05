@@ -5,11 +5,9 @@ using AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.LocalAirl
 using AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.NarrowBodyAirliners.Models;
 using AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RegionalAirliners.Models;
 using AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.WideBodyAirliners.Models;
-using Interfaces.TransportAircraftInterfaces;
 using Interfaces.TransportAircraftInterfaces.Airplanes.CargoAirplanes;
 using Interfaces.TransportAircraftInterfaces.Airplanes.PassengerAirplanes;
 using System;
-using System.Collections.Generic;
 
 namespace UserInterface
 {
@@ -17,8 +15,7 @@ namespace UserInterface
     {
         static void Main(string[] args)
         {
-            var airline = new Airline("AS_AIR", new AircraftManagement(), new AircraftSelection(),
-                new List<ITransportAircraft>());
+            var airline = new Airline("AS_AIR", new AircraftManagement(), new AircraftSelection());
 
             airline.BuyAircraft<AirbusA380>(3);
             airline.BuyAircraft<AirbusBelugaXL>(2);

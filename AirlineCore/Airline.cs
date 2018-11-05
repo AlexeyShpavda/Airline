@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Interfaces.AirlineInterfaces;
-using Interfaces.AirlineInterfaces.AirlineComponents.WorkWithAircrafts;
+using Interfaces.AirlineInterfaces.AirlineComponents.WorkWithAircraft;
 using Interfaces.TransportAircraftInterfaces;
 
 namespace AirlineCore
@@ -14,58 +14,58 @@ namespace AirlineCore
 
         private IAircraftSelection AircraftSelection { get; set; }
 
-        private IEnumerable<ITransportAircraft> TransportAircrafts { get; set; }
+        private IEnumerable<ITransportAircraft> TransportAircraft { get; set; }
 
         public Airline(string name, IAircraftManagement aircraftManagement,
-            IAircraftSelection aircraftSelection, IEnumerable<ITransportAircraft> transportAircrafts)
+            IAircraftSelection aircraftSelection, IEnumerable<ITransportAircraft> transportAircraft)
         {
             Name = name;
             AircraftManagement = aircraftManagement;
             AircraftSelection = aircraftSelection;
-            TransportAircrafts = transportAircrafts;
+            TransportAircraft = transportAircraft;
         }
 
-        public void BuyAircrafts<T>(int quantity) where T : ITransportAircraft, new()
+        public void BuyAircraft<T>(int quantity) where T : ITransportAircraft, new()
         {
-            AircraftManagement.BuyAircrafts<T>(
-                (ICollection<ITransportAircraft>) TransportAircrafts, quantity);
+            AircraftManagement.BuyAircraft<T>(
+                (ICollection<ITransportAircraft>) TransportAircraft, quantity);
         }
 
-        public void SellAircraft(ITransportAircraft transportAircrafts)
+        public void SellAircraft(ITransportAircraft transportAircraft)
         {
-            AircraftManagement.SellAircraft((ICollection<ITransportAircraft>) TransportAircrafts, transportAircrafts);
+            AircraftManagement.SellAircraft((ICollection<ITransportAircraft>) TransportAircraft, transportAircraft);
         }
 
         public IEnumerable<ITransportAircraft> ShowAllAircraft()
         {
-            return AircraftManagement.ShowAllAircraft(TransportAircrafts);
+            return AircraftManagement.ShowAllAircraft(TransportAircraft);
         }
 
-        public IEnumerable<T> ShowAircraftsOfCertainType<T>() where T : ITransportAircraft
+        public IEnumerable<T> ShowAircraftOfCertainType<T>() where T : ITransportAircraft
         {
-            return AircraftManagement.ShowAircraftsOfCertainType<T>(TransportAircrafts);
+            return AircraftManagement.ShowAircraftOfCertainType<T>(TransportAircraft);
         }
 
-        public int GetInformationAboutTotal<T>(IEnumerable<T> transportAircrafts, Func<T, int> countingСriteria)
+        public int GetInformationAboutTotal<T>(IEnumerable<T> transportAircraft, Func<T, int> countingCriteria)
             where T : ITransportAircraft
         {
-            return AircraftManagement.GetInformationAboutTotal(transportAircrafts, countingСriteria);
+            return AircraftManagement.GetInformationAboutTotal(transportAircraft, countingCriteria);
         }
 
         public IEnumerable<ITransportAircraft> SortAircraftAscending<T>(Func<ITransportAircraft, T> sortingCriteria)
         {
-            return AircraftSelection.SortAircraftAscending(TransportAircrafts, sortingCriteria);
+            return AircraftSelection.SortAircraftAscending(TransportAircraft, sortingCriteria);
         }
 
         public IEnumerable<ITransportAircraft> SortAircraftDescending<T>(Func<ITransportAircraft, T> sortingCriteria)
         {
-            return AircraftSelection.SortAircraftDescending(TransportAircrafts, sortingCriteria);
+            return AircraftSelection.SortAircraftDescending(TransportAircraft, sortingCriteria);
         }
 
         public IEnumerable<ITransportAircraft> SearchForSuitableAircraftByRange(
             Func<ITransportAircraft, double> searchCriteria, double lowerBound, double upperBound)
         {
-            return AircraftSelection.SearchForSuitableAircraftByRange(TransportAircrafts, searchCriteria, lowerBound,
+            return AircraftSelection.SearchForSuitableAircraftByRange(TransportAircraft, searchCriteria, lowerBound,
                 upperBound);
         }
     }

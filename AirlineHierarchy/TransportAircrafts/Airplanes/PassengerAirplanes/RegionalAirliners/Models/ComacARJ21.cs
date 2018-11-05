@@ -1,4 +1,4 @@
-﻿namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RagionalAirliners.Models
+﻿namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RegionalAirliners.Models
 {
     public class ComacARJ21 : RegionalAirliner
     {

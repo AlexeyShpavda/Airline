@@ -1,6 +1,6 @@
 ﻿using Interfaces.TransportAircraftInterfaces.Airplanes.PassengerAirplanes.Enums;
 
-namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RagionalAirliners
+namespace AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RegionalAirliners
 {
     public abstract class RegionalAirliner : PassengerAirplane
     {

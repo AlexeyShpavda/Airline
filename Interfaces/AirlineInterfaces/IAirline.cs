@@ -8,15 +8,15 @@ namespace Interfaces.AirlineInterfaces
     {
         string Name { get; set; }
 
-        void BuyAircrafts<T>(int quantity) where T : ITransportAircraft, new();
+        void BuyAircraft<T>(int quantity) where T : ITransportAircraft, new();
 
-        void SellAircraft(ITransportAircraft transportAircrafts);
+        void SellAircraft(ITransportAircraft transportAircraft);
 
         IEnumerable<ITransportAircraft> ShowAllAircraft();
 
-        IEnumerable<T> ShowAircraftsOfCertainType<T>() where T : ITransportAircraft;
+        IEnumerable<T> ShowAircraftOfCertainType<T>() where T : ITransportAircraft;
 
-        int GetInformationAboutTotal<T>(IEnumerable<T> transportAircrafts, Func<T, int> indicatorOfInterest)
+        int GetInformationAboutTotal<T>(IEnumerable<T> transportAircraft, Func<T, int> indicatorOfInterest)
             where T : ITransportAircraft;
 
         IEnumerable<ITransportAircraft> SortAircraftAscending<T>(Func<ITransportAircraft, T> sortingCriteria);

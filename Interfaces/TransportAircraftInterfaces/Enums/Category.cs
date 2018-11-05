@@ -4,6 +4,6 @@
     {
         Military,
         Civil,
-        Experemental
+        Experimental
     }
 }

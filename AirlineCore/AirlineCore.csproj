@@ -36,8 +36,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Airline.cs" />
-    <Compile Include="AirlineComponents\WorkWithAircrafts\AircraftManagement.cs" />
-    <Compile Include="AirlineComponents\WorkWithAircrafts\AircraftSelection.cs" />
+    <Compile Include="AirlineComponents\WorkWithAircraft\AircraftManagement.cs" />
+    <Compile Include="AirlineComponents\WorkWithAircraft\AircraftSelection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

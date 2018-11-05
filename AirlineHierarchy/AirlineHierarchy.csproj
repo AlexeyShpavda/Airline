@@ -44,8 +44,8 @@
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\NarrowBodyAirliners\Models\Boeing737.cs" />
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\NarrowBodyAirliners\NarrowBodyAirliner.cs" />
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\PassengerAirplane.cs" />
-    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RagionalAirliners\Models\ComacARJ21.cs" />
-    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RagionalAirliners\RegionalAirliner.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RegionalAirliners\Models\ComacARJ21.cs" />
+    <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RegionalAirliners\RegionalAirliner.cs" />
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\Models\AirbusA380.cs" />
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\WideBodyAirliner.cs" />
     <Compile Include="TransportAircrafts\TransportAircraft.cs" />

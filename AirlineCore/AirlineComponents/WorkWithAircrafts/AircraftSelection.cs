@@ -3,8 +3,6 @@ using Interfaces.TransportAircraftInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AirlineCore.AirlineComponents.WorkWithAircrafts
 {

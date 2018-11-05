@@ -48,6 +48,7 @@
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\RegionalAirliners\RegionalAirliner.cs" />
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\Models\AirbusA380.cs" />
     <Compile Include="TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\WideBodyAirliner.cs" />
+    <Compile Include="TransportAircrafts\Helicopters\Helicopter.cs" />
     <Compile Include="TransportAircrafts\TransportAircraft.cs" />
   </ItemGroup>
   <ItemGroup>

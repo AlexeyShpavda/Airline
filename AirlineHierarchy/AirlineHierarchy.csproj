@@ -57,5 +57,8 @@
       <Name>Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TransportAircrafts\TansportAircraftClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

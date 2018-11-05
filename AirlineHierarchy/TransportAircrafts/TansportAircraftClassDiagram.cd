@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.Airplane" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\Airplane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.CargoAirplanes.CargoAirplane" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\CargoAirplanes\CargoAirplane.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.CargoAirplanes.Models.AirbusBelugaXL" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAhAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\CargoAirplanes\Models\AirbusBelugaXL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.LocalAirliners.LocalAirliner" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\LocalAirliners\LocalAirliner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.LocalAirliners.Models.CirrusSR22" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAQgEAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\LocalAirliners\Models\CirrusSR22.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.NarrowBodyAirliners.Models.Boeing737" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAQgEAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\NarrowBodyAirliners\Models\Boeing737.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.NarrowBodyAirliners.NarrowBodyAirliner" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\NarrowBodyAirliners\NarrowBodyAirliner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.PassengerAirplane" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAEAABAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\PassengerAirplane.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RegionalAirliners.Models.ComacARJ21" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAQgEAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\RegionalAirliners\Models\ComacARJ21.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.RegionalAirliners.RegionalAirliner" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\RegionalAirliners\RegionalAirliner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.WideBodyAirliners.Models.AirbusA380" Collapsed="true">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAQgEAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\Models\AirbusA380.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Airplanes.PassengerAirplanes.WideBodyAirliners.WideBodyAirliner" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Airplanes\PassengerAirplanes\WideBodyAirliners\WideBodyAirliner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.Helicopters.Helicopter" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>TransportAircrafts\Helicopters\Helicopter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirlineHierarchy.TransportAircrafts.TransportAircraft" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhIAAAAAAAAAAAEAUBAAAAAAAEAAAAAQQgAAAAACAA=</HashCode>
+      <FileName>TransportAircrafts\TransportAircraft.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
